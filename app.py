@@ -5,7 +5,7 @@ import pandas as pd
 from PyPDF2 import PdfReader, PdfWriter
 import tabula
 
-os.environ["JAVA_HOME"] = "/opt/homebrew/opt/openjdk@11"
+#os.environ["JAVA_HOME"] = "/opt/homebrew/opt/openjdk@11"
 
 def pdf_splitter(path):
     fname = os.path.splitext(os.path.basename(path))[0]
